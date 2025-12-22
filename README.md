@@ -34,6 +34,7 @@ graph LR
     D --> F[Sanitized LLM Payload]
     F --> G[Public/Private AI]
 <br />
+```
 
 ## 🛠️ Technical Stack
 <p align="left"> <img src="https://www.google.com/search?q=https://img.shields.io/badge/-Python_3.14-3776AB%3Fstyle%3Dfor-the-badge%26logo%3DPython%26logoColor%3Dwhite" /> <img src="https://www.google.com/search?q=https://img.shields.io/badge/-Cryptography-000000%3Fstyle%3Dfor-the-badge%26logo%3Dicloud%26logoColor%3Dwhite" /> <img src="https://www.google.com/search?q=https://img.shields.io/badge/-Microsoft_Presidio-0078D4%3Fstyle%3Dfor-the-badge%26logo%3DMicrosoft%26logoColor%3Dwhite" /> <img src="https://www.google.com/search?q=https://img.shields.io/badge/-Azure_Identity-0089D6%3Fstyle%3Dfor-the-badge%26logo%3Dmicrosoft-azure%26logoColor%3Dwhite" /> </p>
