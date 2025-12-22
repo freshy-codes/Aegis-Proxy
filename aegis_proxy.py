@@ -30,16 +30,18 @@ def secure_ai_proxy(user_input):
     
     sanitized_text = anonymized_result.text
 
-    
+    #4. GRC Logging: Proof of compliance
+    print(f"[GRC LOG]: Scan Complete.")
+    print(f"[GRC LOG]: Encrypted Evidence: {encrypted_original[:20]}...") # Show just a bit
 
-    #Mock GRC Logging: Proof of compliance
-    print(f"[GRC LOG]: Request scanned. PII Redacted: {len(results) > 0}")
-
-    #In a real app, this sanitized_text would be sent to the AI model
-    return sanitized_text
+    return sanitized_text, encrypted_original
 
 #TEST CASE
-raw_prompt = "Hey GPT, can you help me draft an email to john.doe@company.com regarding credit card 4111-1111-1111-1111?"
-print(f"Original: {raw_prompt}")
-print(f"Sanitized: {secure_ai_proxy(raw_prompt)}")
+raw_prompt = "My email is john.doe@company.com and my card is 4111-1111-1111-1111"
+sanitized, encrypted = secure_ai_proxy(raw_prompt)
+
+print(f"\n✅ SHIELD ACTIVE")
+print(f"Original (Invisible to AI): {raw_prompt}")
+print(f"To LLM (Safe): {sanitized}")
+print(f"Stored in Audit Log (Encrypted): {encrypted}")
 
