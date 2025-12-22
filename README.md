@@ -35,7 +35,12 @@ graph LR
 ```
 <br />
 
-🛠️ Technical Stack
-<p align="left"> <img src="https://www.google.com/search?q=https://img.shields.io/badge/-Python_3.14-3776AB%3Fstyle%3Dfor-the-badge%26logo%3DPython%26logoColor%3Dwhite" /> <img src="https://www.google.com/search?q=https://img.shields.io/badge/-Cryptography-000000%3Fstyle%3Dfor-the-badge%26logo%3Dicloud%26logoColor%3Dwhite" /> <img src="https://www.google.com/search?q=https://img.shields.io/badge/-Microsoft_Presidio-0078D4%3Fstyle%3Dfor-the-badge%26logo%3DMicrosoft%26logoColor%3Dwhite" /> <img src="https://www.google.com/search?q=https://img.shields.io/badge/-Azure_Identity-0089D6%3Fstyle%3Dfor-the-badge%26logo%3Dmicrosoft-azure%26logoColor%3Dwhite" /> </p>
+## 🛠️ Technical Stack
+<p align="left">
+  <img src="https://img.shields.io/badge/-Python_3.14-3776AB?style=for-the-badge&logo=Python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Cryptography-000000?style=for-the-badge&logo=icloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Microsoft_Presidio-0078D4?style=for-the-badge&logo=Microsoft&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Azure_Identity-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+</p>
 
 <div align="center"> <i>"Security is not a blocker; it is the architecture that allows the business to scale AI safely."</i> <br /> <b>Designed & Architected by Christopher Finnerty - 2025</b> </div>
