@@ -18,7 +18,8 @@ The **Aegis Proxy** is a high-performance security interceptor designed to solve
 | :--- | :--- | :--- |
 | **AI Data Intelligence** | **Information Security** | **GRC & Governance** |
 | • **PII Scrubbing:** Detects SSNs, Emails, and Credit Cards. | • **Evidence Vaulting:** AES-256 symmetric encryption. | • **Non-Repudiation:** Defensible audit trail for GRC. |
-| • **Contextual Redaction:** Replaces values with placeholders. | • **Zero-Knowledge:** Inaccessible without Master Key. | • **Data Sovereignty:** Secure `.env` and Azure protocols. |
+| **Contextual Redaction** | **AES-256 Encryption** | **Admin Dashboard** |
+| • Scans text via `spaCy` (Large). | • Encrypts logs via Fernet. | • **Streamlit UI** for real-time monitoring. |
 
 <br />
 
@@ -35,12 +36,25 @@ graph LR
 ```
 <br />
 
-## 🛠️ Technical Stack
+## 🛠️ Quick Start
+1. **Initialize Environment:**
+  ```powershell
+   py -3.12 -m venv venv
+   .\venv\Scripts\activate
+   pip install -r requirements.txt
+   python -m spacy download en_core_web_lg
+  ```
+
+2. **Launch Aegis Dashboard:
+  streamlit run app.py
+
+### 3. 🛠️ Tech Stack
+
 <p align="left">
-  <img src="https://img.shields.io/badge/-Python_3.14-3776AB?style=for-the-badge&logo=Python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Cryptography-000000?style=for-the-badge&logo=icloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Microsoft_Presidio-0078D4?style=for-the-badge&logo=Microsoft&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Azure_Identity-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+  <img src="[https://img.shields.io/badge/-Python_3.12-3776AB?style=for-the-badge&logo=Python&logoColor=white](https://img.shields.io/badge/-Python_3.12-3776AB?style=for-the-badge&logo=Python&logoColor=white)" />
+  <img src="[https://img.shields.io/badge/-Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white](https://img.shields.io/badge/-Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)" />
+  <img src="[https://img.shields.io/badge/-Cryptography-000000?style=for-the-badge&logo=icloud&logoColor=white](https://img.shields.io/badge/-Cryptography-000000?style=for-the-badge&logo=icloud&logoColor=white)" />
+  <img src="[https://img.shields.io/badge/-Microsoft_Presidio-0078D4?style=for-the-badge&logo=Microsoft&logoColor=white](https://img.shields.io/badge/-Microsoft_Presidio-0078D4?style=for-the-badge&logo=Microsoft&logoColor=white)" />
 </p>
 
 <div align="center"> <i>"Security is not a blocker; it is the architecture that allows the business to scale AI safely."</i> <br /> <b>Designed & Architected by Christopher Finnerty - 2025</b> </div>
