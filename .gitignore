@@ -1,4 +1,11 @@
-venv/
-.env
+# Python
 __pycache__/
-*.db
+*.py[cod]
+venv/
+
+# Security & Secrets
+.env
+.env.local
+
+# Local Logs
+*.log

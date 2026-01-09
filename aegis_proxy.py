@@ -44,7 +44,7 @@ class SecureGateway:
 
     def _register_custom_recognizers(self):
         """Standard NLP misses random API keys; we use regex to catch them."""
-        api_key_pattern = Pattern(name="api_key_pattern", regex=r"(sk-[a-zA-Z0-9\-\_]{20,})", score=0.8)
+        api_key_pattern = Pattern(name="api_key_pattern", regex=r"(sk-[a-zA-Z0-9\-\_]{10,})", score=0.8)
         api_key_recognizer = PatternRecognizer(supported_entity="API_KEY", patterns=[api_key_pattern])
         self.analyzer.registry.add_recognizer(api_key_recognizer)
     
