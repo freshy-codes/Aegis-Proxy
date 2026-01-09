@@ -45,8 +45,10 @@ graph LR
    python -m spacy download en_core_web_lg
   ```
 
-2. **Launch Aegis Dashboard:
+2. **Launch Aegis Dashboard:**
+```
   streamlit run app.py
+```
 
 ### 3. 🛠️ Tech Stack
 
