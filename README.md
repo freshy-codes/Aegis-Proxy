@@ -52,7 +52,7 @@ graph LR
 
 ### 3. 🛠️ Tech Stack
 
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/-Python_3.12-3776AB?style=for-the-badge&logo=Python&logoColor=white" />
   <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" />
   <img src="https://img.shields.io/badge/-Cryptography-000000?style=for-the-badge&logo=icloud&logoColor=white" />
