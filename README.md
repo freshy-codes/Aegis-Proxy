@@ -53,10 +53,10 @@ graph LR
 ### 3. 🛠️ Tech Stack
 
 <p align="left">
-  <img src="[https://img.shields.io/badge/-Python_3.12-3776AB?style=for-the-badge&logo=Python&logoColor=white](https://img.shields.io/badge/-Python_3.12-3776AB?style=for-the-badge&logo=Python&logoColor=white)" />
-  <img src="[https://img.shields.io/badge/-Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white](https://img.shields.io/badge/-Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)" />
-  <img src="[https://img.shields.io/badge/-Cryptography-000000?style=for-the-badge&logo=icloud&logoColor=white](https://img.shields.io/badge/-Cryptography-000000?style=for-the-badge&logo=icloud&logoColor=white)" />
-  <img src="[https://img.shields.io/badge/-Microsoft_Presidio-0078D4?style=for-the-badge&logo=Microsoft&logoColor=white](https://img.shields.io/badge/-Microsoft_Presidio-0078D4?style=for-the-badge&logo=Microsoft&logoColor=white)" />
+  <img src="https://img.shields.io/badge/-Python_3.12-3776AB?style=for-the-badge&logo=Python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Cryptography-000000?style=for-the-badge&logo=icloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Microsoft_Presidio-0078D4?style=for-the-badge&logo=Microsoft&logoColor=white" />
 </p>
 
 <div align="center"> <i>"Security is not a blocker; it is the architecture that allows the business to scale AI safely."</i> <br /> <b>Designed & Architected by Christopher Finnerty - 2025</b> </div>
